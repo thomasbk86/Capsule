@@ -49,6 +49,15 @@ p {
   .container {
     width: 750px;
   }
+  header nav Site-Logo {
+    float:left;
+  }
+  header nav ul {
+     display:inline;
+     text-align: right;
+     float:right;
+     margin:0;
+   }
 }
 
  /* Laptop */
@@ -66,6 +75,15 @@ p {
   .one-fourth {
     width: 21%;
   }
+  header nav Site-Logo {
+    float:left;
+  }
+  header nav ul {
+     display:inline;
+     text-align: right;
+     float:right;
+     margin:0;
+   }
 }
 
  /* Desktop */
@@ -74,6 +92,15 @@ p {
   .container {
     width:1170px;
   }
+  header nav Site-Logo {
+    float:left;
+  }
+  header nav ul {
+     display:inline;
+     text-align: right;
+     float:right !important;
+     margin: 0 50px;
+   }
 }
 
 /* iPhone 6 */
@@ -83,6 +110,15 @@ p {
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    header nav Site-Logo {
+      float:left;
+    }
+    header nav ul {
+       display:inline;
+       text-align: right;
+       float:right;
+       margin:0;
+     }
 }
 
 /* iPhone 6+ */
@@ -92,6 +128,15 @@ p {
  and (min-device-width: 414px)
  and (max-device-width: 736px)
  and (-webkit-min-device-pixel-ratio: 3) {
+   header nav Site-Logo {
+     float:left;
+   }
+   header nav ul {
+      display:inline;
+      text-align: right;
+      float:right;
+      margin:0;
+    }
 }
 
  /* HEADER */
@@ -104,6 +149,9 @@ p {
 }
 header nav {
   padding:1em 0;
+}
+header nav Site-Logo {
+  float:left;
 }
 header nav ul {
    display:inline;
@@ -156,7 +204,8 @@ header .hero {
   .btn {
     border-radius: 4px;
     color:#FFFFFF;
-    font-weight: 700;
+    font-family: "Gotham medium", Helvetica, Arial, sans-serif;
+    font-weight: bold;
     text-decoration: none;
     padding:10px 30px;
     background: #FF5252;
@@ -191,9 +240,9 @@ header .hero {
   /* PRICING */
    .pricing {
      background: #213159 url("../images/background.png") top center no-repeat;
-     background: url("../images/background.png") top center no-repeat, background-image: -moz-linear-gradient( 30deg, rgb(33,49,89) 0%, rgb(79,131,204) 100%);
-     background-image: -webkit-linear-gradient( 30deg, rgb(33,49,89) 0%, rgb(79,131,204) 100%);
-     background-image: -ms-linear-gradient( 30deg, rgb(33,49,89) 0%, rgb(79,131,204) 100%);
+     background: url("../images/background.png") top center no-repeat, background-image: -moz-linear-gradient( 30deg, rgba(33,49,89) 0%, rgba(79,131,204) 100%);
+     background-image: -webkit-linear-gradient( 30deg, rgba(33,49,89,0.5) 0%, rgba(79,131,204,1) 100%);
+     background-image: -ms-linear-gradient( 30deg, rgba(33,49,89,0.5) 0%, rgba(79,131,204,1) 100%);
      background-size:cover;
      text-align: center;
      padding:4em 0;
