@@ -43,24 +43,6 @@ p {
    margin:0 2% 20px;
  }
 
- /* iPhone 6 */
-
- /* Portrait and Landscape */
- @media only screen
-   and (min-device-width: 375px)
-   and (max-device-width: 667px)
-   and (-webkit-min-device-pixel-ratio: 2) {
- }
-
- /* iPhone 6+ */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-}
-
  /* Tablet */
 
 @media (min-width: 768px) {
@@ -92,6 +74,24 @@ p {
   .container {
     width:1170px;
   }
+}
+
+/* iPhone 6 */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* iPhone 6+ */
+
+/* Portrait and Landscape */
+@media only screen
+ and (min-device-width: 414px)
+ and (max-device-width: 736px)
+ and (-webkit-min-device-pixel-ratio: 3) {
 }
 
  /* HEADER */
@@ -270,7 +270,7 @@ header .hero {
 
  /* TESTIMONIALS */
 .testimonials {
-  padding:4em 0;
+  padding:1em 0;
   text-align: center;
 }
 .testimonials h2 {
@@ -315,8 +315,77 @@ header .hero {
   display: inline-block;
   text-align: left;
   font-size:13px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
-.container li:nth-of-type(even) {
+.testimonials .container li:nth-of-type(even) {
   padding-top: 20px;
 }
+
+/* Call to action */
+.calltoaction {
+  padding:3em 0;
+  text-align: center;
+}
+.calltoaction h2 {
+  color:#4F83CC;
+  margin-top: -30px;
+}
+.calltoaction {
+  padding-bottom: 70px;
+}
+.calltoaction p {
+  padding-bottom: 20px;
+}
+
+/* FOOTER */
+ footer {
+   background-color: #213159;
+   background-image: linear-gradient(to top,
+      #4F83CC 0%, #4F83CC 50%, #213159 50%, #213159 100%);
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+
+ @media (min-width: 992px){
+   footer{
+     background-color: #4F83CC;
+     background-image: linear-gradient(to left,
+        #4F83CC 0%, #4F83CC 33.33337%, #213159 33.33337%, #213159 100%);
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #4F83CC;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+ }
