@@ -438,3 +438,23 @@ header .hero {
      padding: 2em 0 2em 1.5em;
    }
  }
+
+ @media (min-width: 768px) and (max-width: 991px){
+   footer .logo{
+     padding: 0;
+     margin-top: auto;
+   }
+ }
+
+ @media (min-width: 320px) and (max-width: 767px){
+  .one-third {
+     margin:0 2% 10px;    
+     }
+   footer p, footer nav ul{
+     padding: 0;
+   }
+   footer .logo{
+       padding: 20px;
+     margin: auto;
+   }
+ }
