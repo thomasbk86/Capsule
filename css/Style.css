@@ -238,12 +238,17 @@ header .hero {
   }
 
   /* PRICING */
-   .pricing {
-     background-image:-webkit-linear-gradient( 30deg, rgba(33,49,89,0.5) 0%, rgba(79,131,204,1) 100%)url("../images/background.png") top center no-repeat;
-     background-size:cover;
-     text-align: center;
-     padding:4em 0;
-   }
+  .pricing {
+    background:
+   linear-gradient(to top right,
+     rgba(33, 49, 89, .5),
+     rgba(79, 131, 204, .75)
+   ),
+   url("../images/background.png");
+    background-size:cover;
+    text-align: center;
+    padding:4em 0;
+  }
    .pricing h2, .pricing p {
      color:#FFFFFF;
    }
@@ -466,7 +471,7 @@ header .hero {
 
  @media (min-width: 320px) and (max-width: 767px){
   .one-third {
-     margin:0 2% 10px;    
+     margin:0 2% 10px;
      }
    footer p, footer nav ul{
      padding: 0;
