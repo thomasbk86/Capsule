@@ -521,10 +521,12 @@ header .hero {
   margin: 0 0 40px;
   padding: 0;
 }
-.left-nav .items ul li {
+.left-nav .items ul li a:active {
   font-family: "Gothamthin";
   list-style-type: none;
   margin-bottom: 15px;
+  background-color: #FFFFFF;
+  color: #213159;
 }
 .left-nav .items ul li a {
   font-family: "Gothamthin";
