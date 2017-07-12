@@ -55,6 +55,60 @@
  .dropit .dropit-open .dropit-submenu li a {
   color:#213159;
   text-decoration: none;
-  font-family: "Gotham medium", Helvetica, Arial, sans-serif;
+  font-family: "GothamThin", Helvetica, Arial, sans-serif;
   font-weight:100;
  }
+
+ .settings .dropit {
+     list-style: none;
+ 	padding: 0;
+ 	margin: 15px 0 0;
+   float:right;
+   display: inline-block;
+ }
+ .settings .dropit .dropit-trigger { position: relative; }
+ .settings .dropit .dropit-submenu {
+     position: absolute;
+     top: 100%;
+     right: 0; /* dropdown left or right */
+     z-index: 1000;
+     display: none;
+     min-width: 100px;
+     list-style: none;
+ 	padding: -120px;
+ 	margin: -120px 0 0;
+ }
+ .settings .dropit .dropit-open .dropit-submenu {
+   display: block;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+   border-radius: 4px;
+ }
+ .settings .dropit .dropit-open .dropit-submenu:after {
+   content: " ";
+   position: absolute;
+   border-style: solid;
+   border-width: 0 8px 8px;
+   border-color: #fff transparent;
+   display: block;
+   width: 0;
+   z-index: 1;
+   top: 118px;
+   right: 10px;
+   -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .settings .dropit .dropit-open .dropit-submenu li {
+   display: block;
+   margin-bottom: 20px;
+  }
+  .settings .dropit .dropit-open .dropit-submenu li:last-child {
+   margin-bottom: 0px;
+  }
+  .settings .dropit .dropit-open .dropit-submenu li a {
+   color:#213159;
+   text-decoration: none;
+   font-family: "GothamThin", Helvetica, Arial, sans-serif;
+   font-weight:100;
+  }
