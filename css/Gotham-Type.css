@@ -6,8 +6,6 @@
 		local("Gotham-Medium"),
 		url('fonts/Gotham Medium.otf')
 		format('opentype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 /*bold version*/
@@ -18,7 +16,6 @@
     		local("Gotham-Bold-Regular"),
     		url('fonts/Gotham Bold Regular.ttf')
     		format('opentype');
-        font-weight: bold;
 }
 
 /*thin version*/
@@ -29,4 +26,4 @@
             		local("GothamThin-Regular"),
             		url('fonts/GothamThin Regular.otf')
             		format('opentype');
-                font-weight: thin;
+            
