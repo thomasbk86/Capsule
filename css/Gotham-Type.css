@@ -4,7 +4,7 @@
 	src:
 		local("GothamMedium"),
 		local("GothamMedium"),
-		url('fonts/GothamMedium.otf')
+		url('../fonts/GothamMedium.otf')
 		format('opentype');
 }
 
@@ -14,8 +14,8 @@
     	src:
     		local("GothamBoldRegular"),
     		local("GothamBoldRegular"),
-    		url('fonts/GothamBoldRegular.ttf')
-    		format('opentype');
+    		url('../fonts/GothamBoldRegular.ttf')
+    		format('truetype');
 }
 
 /*thin version*/
@@ -24,5 +24,5 @@
             	src:
             		local("GothamThinRegular"),
             		local("GothamThinRegular"),
-            		url('fonts/GothamThinRegular.otf')
+            		url('../fonts/GothamThinRegular.otf')
             		format('opentype');
