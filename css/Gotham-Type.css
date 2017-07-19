@@ -4,7 +4,7 @@
 	src:
 		local("Gotham Medium"),
 		local("Gotham-Medium"),
-		url('https://github.com/thomasbk86/Capsule/blob/gh-pages/fonts/Gotham-Medium.otf')
+		url('../fonts/Gotham Medium.otf')
 		format('opentype');
 }
 
@@ -14,7 +14,7 @@
     	src:
     		local("Gotham Bold Regular"),
     		local("Gotham-Bold-Regular"),
-    		url('https://github.com/thomasbk86/Capsule/blob/gh-pages/fonts/Gotham-Bold-Regular.ttf')
+    		url('../fonts/Gotham Bold Regular.ttf')
     		format('opentype');
 }
 
@@ -24,5 +24,5 @@
             	src:
             		local("GothamThin Regular"),
             		local("GothamThin-Regular"),
-            		url('https://github.com/thomasbk86/Capsule/blob/gh-pages/fonts/GothamThin-Regular.otf')
+            		url('../fonts/GothamThin Regular.otf')
             		format('opentype');
