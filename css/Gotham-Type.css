@@ -2,9 +2,9 @@
 @font-face {
 	font-family: "Gotham Medium";
 	src:
-		local("Gotham Medium"),
-		local("Gotham-Medium"),
-		url('fonts/Gotham Medium.otf')
+		local("GothamMedium"),
+		local("GothamMedium"),
+		url('fonts/GothamMedium.otf')
 		format('opentype');
 }
 
@@ -12,9 +12,9 @@
 @font-face {
     	font-family: "Gotham Bold Regular";
     	src:
-    		local("Gotham Bold Regular"),
-    		local("Gotham-Bold-Regular"),
-    		url('fonts/Gotham Bold Regular.ttf')
+    		local("GothamBoldRegular"),
+    		local("GothamBoldRegular"),
+    		url('fonts/GothamBoldRegular.ttf')
     		format('opentype');
 }
 
@@ -22,8 +22,7 @@
 @font-face {
             	font-family: "GothamThin Regular";
             	src:
-            		local("GothamThin Regular"),
-            		local("GothamThin-Regular"),
-            		url('fonts/GothamThin Regular.otf')
+            		local("GothamThinRegular"),
+            		local("GothamThinRegular"),
+            		url('fonts/GothamThinRegular.otf')
             		format('opentype');
-            
