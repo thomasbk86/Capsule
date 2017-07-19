@@ -1,28 +1,22 @@
 /*default version*/
 @font-face {
 	font-family: "Gotham Medium";
-	src:
-		local("Gotham Medium"),
-		local("Gotham-Medium"),
-		url('../fonts/Gotham Medium.otf')
-		format('opentype');
+  src: url('../fonts/GothamMedium.otf') format('opentype'),
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*bold version*/
 @font-face {
     	font-family: "Gotham Bold Regular";
-    	src:
-    		local("Gotham Bold Regular"),
-    		local("Gotham-Bold-Regular"),
-    		url('../fonts/Gotham Bold Regular.ttf')
-    		format('opentype');
+      src: url('../fonts/GothamBoldRegular.ttf') format('truetype'),
+      font-weight: normal;
+      font-style: normal;
 }
 
 /*thin version*/
 @font-face {
             	font-family: "GothamThin Regular";
-            	src:
-            		local("GothamThin Regular"),
-            		local("GothamThin-Regular"),
-            		url('../fonts/GothamThin Regular.otf')
-            		format('opentype');
+              src: url('../fonts/GothamThinRegulat.otf') format('opentype'),
+              font-weight: normal;
+              font-style: normal;
